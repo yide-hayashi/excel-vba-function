@@ -1,0 +1,38 @@
+"Public Sub t()
+'VBA array is rise 1
+'Sheets(1).Cells(31, ""A"") = ""ts""
+Dim s1 As Integer
+Dim s As Sheets
+'MsgBox test
+For s1 = 1 To Sheets.Count
+    If Sheets(s1).Cells(31, ""A"") <> ""ts"" Then
+        Sheets(s1).Cells(31, ""B"") = ""no ts""
+    End If
+Next
+Range(""A13"", ""A32"") = ""next""
+Sheets.Add after:=Sheets(2)
+Sheets(3).Name = ""t1""
+
+End Sub
+
+
+End Sub"							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
